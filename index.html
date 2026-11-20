@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Campus Life Super App</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
-        <link rel="stylesheet" href="\css\style.css">
+        <link rel="stylesheet" href="css\style.css">
     </head>
 
     <body>
@@ -15,86 +15,88 @@
                 <a href="index.html">Home</a> | <a href="assignments.html">Assignments</a> | <a href="events.html">Events</a>
             </nav>
         </header>
-        <section class="d-flex text-center gap-5">
-            <div class="invisdiv d-flex row ms-2">
-                <h2>Upcoming Assignments</h2>
-                <div>
-                    <p>text</p>
-                    <p>text</p>
-                    <p>text</p>
-                    <p>text</p>
-                </div>
-                <h2>Upcoming Events</h2>
-                <div>
-                    <p>text</p>
-                    <p>text</p>
-                    <p>text</p>
-                    <p>text</p>
-                </div>
-                <h2>Resources</h2>
-                <div>
-                    <ul class="list-unstyled pt-2">
-                        <li><a href="">Academic Calendar</a></li>
-                        <li><a href="">Course Catalog</a></li>
-                        <li><a href="">Transfer Form</a></li>
-                        <li><a href="">Drop Out Form</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="invisdiv d-flex row align-self-start justify-content-center me-2">
-                <h2>Weather</h2>
-                <div class="invisdiv d-flex justify-content-center pt-2" id="weather-container">
-                    <!-- api info -->
-                </div>
-                <button class="col-auto mb-2" id="weather-button">
-                    View Weather
-                </button>
-                <h2>Dining Hours</h2>
-                <div>
-                    <h3 class="mt-2">
-                        Cafeteria
-                    </h3>
-                    <!-- Pressing buttons changes text in hour-info -->
-                    <div class="invisdiv mb-2">
-                        <button class="clicked-button" id="breakfast">Breakfast</button>
-                        <button id="lunch">Lunch</button>
-                        <button id="dinner">Dinner</button>
+        <main>
+            <section class="d-flex text-center gap-5">
+                <div class="invisdiv d-flex row ms-2">
+                    <h2>Upcoming Assignments</h2>
+                    <div>
+                        <p>text</p>
+                        <p>text</p>
+                        <p>text</p>
+                        <p>text</p>
                     </div>
-                    <div class="invisdiv" id="hour-info">
-                        <ul class="text-start">
-                            <li>Monday - Friday | 6 AM - 9 AM</li>
-                            <li>Saturday & Sunday | 7 AM - 10 PM</li>
+                    <h2>Upcoming Events</h2>
+                    <div>
+                        <p>text</p>
+                        <p>text</p>
+                        <p>text</p>
+                        <p>text</p>
+                    </div>
+                    <h2>Resources</h2>
+                    <div>
+                        <ul class="list-unstyled pt-2">
+                            <li><a href="">Academic Calendar</a></li>
+                            <li><a href="">Course Catalog</a></li>
+                            <li><a href="">Transfer Form</a></li>
+                            <li><a href="">Drop Out Form</a></li>
                         </ul>
                     </div>
-                    <h3>
-                        Chick-Fil-A
-                    </h3>
-                        <ul class="text-start">
-                            <li>Monday - Friday | 9 AM - 10 PM</li>
-                            <li>Saturday & Sunday | 12 PM - 8 PM</li>
-                        </ul>
-                    <h3>
-                        Starbucks
-                    </h3>
-                        <ul class="text-start">
-                            <li>Monday - Thursday | 6 AM - 10 PM</li>
-                            <li>Friday | 5 AM - 11 PM</li>
-                            <li>Saturday & Sunday | 9 PM - 8 PM</li>
-                        </ul>
                 </div>
-            </div>
-        </section>
-        <!-- Photo gallery -->
-        <section class="mt-2">
-            <h2>Photo Gallery</h2>
-            <div>
-                <img><img><img>
-            </div>
-        </section>
+                <div class="invisdiv d-flex row align-self-start justify-content-center me-2">
+                    <h2>Weather</h2>
+                    <div class="invisdiv d-flex justify-content-center pt-2" id="weather-container">
+                        <!-- api info -->
+                    </div>
+                    <button class="col-auto mb-2" id="weather-button">
+                        View Weather
+                    </button>
+                    <h2>Dining Hours</h2>
+                    <div>
+                        <h3 class="mt-2">
+                            Cafeteria
+                        </h3>
+                        <!-- Pressing buttons changes text in hour-info -->
+                        <div class="invisdiv mb-2">
+                            <button class="clicked-button" id="breakfast">Breakfast</button>
+                            <button id="lunch">Lunch</button>
+                            <button id="dinner">Dinner</button>
+                        </div>
+                        <div class="invisdiv" id="hour-info">
+                            <ul class="text-start">
+                                <li>Monday - Friday | 6 AM - 9 AM</li>
+                                <li>Saturday & Sunday | 7 AM - 10 PM</li>
+                            </ul>
+                        </div>
+                        <h3>
+                            Chick-Fil-A
+                        </h3>
+                            <ul class="text-start">
+                                <li>Monday - Friday | 9 AM - 10 PM</li>
+                                <li>Saturday & Sunday | 12 PM - 8 PM</li>
+                            </ul>
+                        <h3>
+                            Starbucks
+                        </h3>
+                            <ul class="text-start">
+                                <li>Monday - Thursday | 6 AM - 10 PM</li>
+                                <li>Friday | 5 AM - 11 PM</li>
+                                <li>Saturday & Sunday | 9 PM - 8 PM</li>
+                            </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Photo gallery -->
+            <section class="mt-2">
+                <h2>Photo Gallery</h2>
+                <div>
+                    <img src="" alt=""><img src="" alt=""><img src="" alt="">
+                </div>
+            </section>
+        </main>
         <footer>
             
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
-        <script src="\js\script.js"></script>
+        <script src="js\script.js"></script>
     </body>
 </html>
