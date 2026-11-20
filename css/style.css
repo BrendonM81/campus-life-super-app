@@ -1,4 +1,11 @@
+body {
+    background-color: #3f191926;
+}
 div {
     border: 2px solid #ff0000;
     border-radius: 10px;
+}
+
+.invisdiv {
+    border: 0px;
 }
