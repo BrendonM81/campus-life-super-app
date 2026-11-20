@@ -2,9 +2,9 @@ console.log("script.js loaded");
 let endpoint = "https://api.apilayer.net/weatherstack/current?access_key=b694faef17bebffa9b1029c79ec6ebed&query=New%20York&units=f";
 
 // Selects div that will hold weather info
-const weatherContainer = document.querySelector("#weather-container");
+const weatherContainer = document.querySelector('#weather-container');
 // Selects button that will request weather info
-const button = document.querySelector("#weather-button");
+const button = document.querySelector('#weather-button');
 
 // Code inside block only triggers when 'View Weather' button is clicked
 button.addEventListener("click", async function () {
@@ -69,4 +69,12 @@ dinner.addEventListener("click", function () {
             <li>Saturday & Sunday | 5 PM - 8 PM</li>
         </ul>
     `;
+});
+
+
+assignments = document.querySelectorAll('.assignments');
+classes = document.querySelector('#tempbutton');
+
+classes.addEventListener("click", function () {
+    console.log("text");
 });
