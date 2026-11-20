@@ -23,7 +23,7 @@ button.addEventListener("click", async function () {
             <li>Humidity: ${data.current.humidity}%</li>
         </ul>
     `;
-    // Removes the button
+    // Removes the button to avoid excessive API calls
     button.classList.add('d-none');
 });
 
