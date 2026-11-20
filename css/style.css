@@ -1,11 +1,20 @@
 body {
-    background-color: #3f191926;
+    background-color: #d0d0d0;
 }
 div {
     border: 2px solid #ff0000;
     border-radius: 10px;
 }
+button {
+    border-radius: 5px;
+    background-color: #d0d0d0;
+}
+
 
 .invisdiv {
     border: 0px;
+}
+.clicked-button {
+    background-color: #373737;
+    color: #d0d0d0;
 }

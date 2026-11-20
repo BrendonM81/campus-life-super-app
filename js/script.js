@@ -33,9 +33,12 @@ const breakfast = document.querySelector("#breakfast");
 const lunch = document.querySelector("#lunch");
 const dinner = document.querySelector("#dinner");
 // Selects div that holds the ul with cafeteria hours
-const caf_hours = document.querySelector("#hour-info")
+const caf_hours = document.querySelector("#hour-info");
 
 breakfast.addEventListener("click", function () {
+    lunch.classList.remove('clicked-button');
+    dinner.classList.remove('clicked-button');
+    breakfast.classList.add('clicked-button');
     caf_hours.innerHTML = `
         <ul class="text-start">
             <li>Monday - Friday | 6 AM - 9 AM</li>
@@ -45,6 +48,9 @@ breakfast.addEventListener("click", function () {
 });
 
 lunch.addEventListener("click", function () {
+    breakfast.classList.remove('clicked-button');
+    dinner.classList.remove('clicked-button');
+    lunch.classList.add('clicked-button');
     caf_hours.innerHTML = `
         <ul class="text-start">
             <li>Monday - Friday | 11 AM - 2 PM</li>
@@ -54,6 +60,9 @@ lunch.addEventListener("click", function () {
 });
 
 dinner.addEventListener("click", function () {
+    breakfast.classList.remove('clicked-button');
+    lunch.classList.remove('clicked-button');
+    dinner.classList.add('clicked-button');
     caf_hours.innerHTML = `
         <ul class="text-start">
             <li>Monday - Friday | 4 PM - 7 PM</li>
