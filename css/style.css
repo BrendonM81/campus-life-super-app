@@ -26,14 +26,14 @@ a {
     color: #d0d0d0;
 }
 .month {
-    padding: 0 1em;
+    padding: 0 3em;
     padding-top: 1em;
     margin-left: 1em;
     cursor: pointer;
 }
 .event {
     padding: 1em 1em;
-    margin-left: 10em;
+    margin-left: 14em;
     display: flex;
     gap: 1.5em;
     width: 75vw;
