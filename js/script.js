@@ -70,11 +70,3 @@ dinner.addEventListener("click", function () {
         </ul>
     `;
 });
-
-
-assignments = document.querySelectorAll('.assignments');
-classes = document.querySelector('#tempbutton');
-
-classes.addEventListener("click", function () {
-    console.log("text");
-});

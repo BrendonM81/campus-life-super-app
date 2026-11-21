@@ -21,6 +21,7 @@ sidebar {
 }
 .class-div {
     margin-bottom: 10px;
+    cursor: pointer;
 }
 .clicked-button {
     background-color: #373737;
