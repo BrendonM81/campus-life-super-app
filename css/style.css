@@ -32,12 +32,11 @@ a {
     cursor: pointer;
 }
 .event {
-    padding: 1em 0;
-    padding-left: 1em;
-    padding-right: 17em;
+    padding: 1em 1em;
     margin-left: 10em;
     display: flex;
     gap: 1.5em;
+    width: 75vw;
 }
 
 #warning {

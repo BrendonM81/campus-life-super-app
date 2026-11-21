@@ -42,7 +42,7 @@ breakfast.addEventListener("click", function () {
     caf_hours.innerHTML = `
         <ul class="text-start">
             <li>Monday - Friday | 6 AM - 9 AM</li>
-            <li>Saturday & Sunday | 7 AM - 10 PM</li>
+            <li>Saturday & Sunday | 7 AM - 10 AM</li>
         </ul>
     `;
 });
@@ -54,7 +54,7 @@ lunch.addEventListener("click", function () {
     caf_hours.innerHTML = `
         <ul class="text-start">
             <li>Monday - Friday | 11 AM - 2 PM</li>
-            <li>Saturday & Sunday | 12 AM - 3 PM</li>
+            <li>Saturday & Sunday | 12 PM - 3 PM</li>
         </ul>
     `;
 });
