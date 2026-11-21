@@ -33,6 +33,7 @@ a {
     padding: 1em 0;
     padding-left: 1em;
     padding-right: 17em;
+    margin-left: 10em;
     display: flex;
     gap: 1.5em;
 }
