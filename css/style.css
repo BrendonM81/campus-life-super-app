@@ -13,9 +13,13 @@ button {
 a {
     color: #5c0000;
 }
-footer {
-    color: rgb(255, 138, 138);
+header, footer {
+    color: #ff8a8a;
     background-color: #2F2F2F;
+}
+header a {
+    color: #ff8a8a;
+    font-size: 18px;
 }
 
 
