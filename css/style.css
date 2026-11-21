@@ -13,13 +13,15 @@ button {
 a {
     color: #5c0000;
 }
-header, footer {
+header, footer, nav {
     color: #ff8a8a;
     background-color: #2F2F2F;
 }
-header a {
-    color: #ff8a8a;
+nav {
     font-size: 18px;
+}
+nav a {
+    color: #ff8a8a;
 }
 
 
