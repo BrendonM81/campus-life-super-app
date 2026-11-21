@@ -12,9 +12,6 @@ button {
 a {
     color: #5c0000;
 }
-sidebar {
-    width: 20%;
-}
 
 .invisdiv {
     border: 0px;
@@ -27,7 +24,15 @@ sidebar {
     background-color: #373737;
     color: #d0d0d0;
 }
+.month {
+    padding: 0 1em;
+    padding-top: 1em;
+    margin-left: 1em;
+}
 .event {
+    padding: 1em 0;
+    padding-left: 1em;
+    padding-right: 17em;
     display: flex;
-    gap: 25px;
+    gap: 1.5em;
 }
