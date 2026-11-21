@@ -47,3 +47,11 @@ footer {
 #warning {
     font-size: 10px;
 }
+#gallery {
+    overflow-x: auto;
+}
+#gallery img {
+    width: 15vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
