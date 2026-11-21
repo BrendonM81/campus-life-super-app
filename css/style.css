@@ -6,6 +6,7 @@ div {
     border-radius: 10px;
 }
 button {
+    border-color: #000000;
     border-radius: 5px;
     background-color: #d0d0d0;
 }
@@ -37,4 +38,8 @@ a {
     margin-left: 10em;
     display: flex;
     gap: 1.5em;
+}
+
+#warning {
+    font-size: 10px;
 }
