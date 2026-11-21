@@ -47,6 +47,7 @@
                     </div>
                     <h2>Resources</h2>
                     <div>
+                        <!-- 'list-unstyled' removes the dots from the unordered list -->
                         <ul class="list-unstyled pt-2">
                             <li><a href="">Academic Calendar</a></li>
                             <li><a href="">Course Catalog</a></li>
@@ -58,8 +59,9 @@
                 <div class="invisdiv d-flex row align-self-start justify-content-center me-2">
                     <h2>Weather</h2>
                     <div class="invisdiv d-flex justify-content-center pt-2" id="weather-container">
-                        <!-- api info -->
+                        <!-- API info shown here -->
                     </div>
+                    <!-- Button requests info from API -->
                     <button class="col-auto mb-2" id="weather-button">
                         View Weather
                     </button>
@@ -69,7 +71,7 @@
                         <h3 class="mt-2">
                             Cafeteria
                         </h3>
-                        <!-- Pressing buttons changes text in hour-info -->
+                        <!-- Pressing buttons changes text in hour-info accordingly -->
                         <div class="invisdiv mb-2">
                             <button class="clicked-button" id="breakfast">Breakfast</button>
                             <button id="lunch">Lunch</button>
