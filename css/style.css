@@ -3,6 +3,7 @@ body {
 }
 div {
     border: 2px solid #ff0000;
+    /* Rounds corners of borders */
     border-radius: 10px;
 }
 button {
@@ -24,14 +25,16 @@ nav a {
     color: #ff8a8a;
 }
 
-
+/* Class used to hide the border on all divs */
 .invisdiv {
     border: 0px;
 }
 .class-div {
-    margin-bottom: 10px;
+    margin-bottom: 1em;
+    /* Makes the cursor a pointer when hovering over the element; lets the user know it is interactive */
     cursor: pointer;
 }
+/* Makes buttons look visually selected */
 .clicked-button {
     background-color: #373737;
     color: #d0d0d0;
@@ -47,17 +50,20 @@ nav a {
     margin-left: 14em;
     display: flex;
     gap: 1.5em;
+    /* 'vw' unit changes size based on the window size */
     width: 75vw;
 }
 
 #warning {
     font-size: 10px;
 }
+/* Allows photo gallery to extend to the right and be horizontally scrollable */
 #gallery {
     overflow-x: auto;
 }
 #gallery img {
     width: 15vw;
+    /* Prevents images from stretching */
     object-fit: cover;
     border-radius: 10px;
 }

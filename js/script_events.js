@@ -1,6 +1,8 @@
 console.log("script.js loaded");
 
+// Selects the month selector on the left of page
 let november = document.querySelector('#november-m')
+// Sends user to the corresponding month of events
 november.addEventListener('click', function () {
     window.location.href = "#november"
 })

@@ -36,9 +36,11 @@ const dinner = document.querySelector("#dinner");
 const caf_hours = document.querySelector("#hour-info");
 
 breakfast.addEventListener("click", function () {
+    // Removes and adds class that makes button visually selected
     lunch.classList.remove('clicked-button');
     dinner.classList.remove('clicked-button');
     breakfast.classList.add('clicked-button');
+    // Changes div text to the text below
     caf_hours.innerHTML = `
         <ul class="text-start">
             <li>Monday - Friday | 6 AM - 9 AM</li>
