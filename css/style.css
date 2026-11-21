@@ -6,13 +6,18 @@ div {
     border-radius: 10px;
 }
 button {
-    border-color: #000000;
+    border-color: black;
     border-radius: 5px;
     background-color: #d0d0d0;
 }
 a {
     color: #5c0000;
 }
+footer {
+    color: white;
+    background-color: black;
+}
+
 
 .invisdiv {
     border: 0px;
