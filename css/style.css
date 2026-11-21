@@ -49,6 +49,7 @@ nav a {
     padding: 1em 1em;
     margin-left: 14em;
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5em;
     /* 'vw' unit changes size based on the window size */
     width: 75vw;
@@ -66,4 +67,7 @@ nav a {
     /* Prevents images from stretching */
     object-fit: cover;
     border-radius: 10px;
+}
+#event-sum, #assignment-sum {
+    cursor: pointer;
 }

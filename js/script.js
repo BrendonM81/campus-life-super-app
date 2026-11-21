@@ -72,3 +72,17 @@ dinner.addEventListener("click", function () {
         </ul>
     `;
 });
+
+
+
+let events = document.querySelector('#event-sum')
+// Sends user to the events page if Upcoming Events div is clicked
+events.addEventListener('click', function () {
+    window.location.href = "events.html"
+})
+
+let assignments = document.querySelector('#assignment-sum')
+// Sends user to the assignments page if Upcoming Assignments div is clicked
+assignments.addEventListener('click', function () {
+    window.location.href = "assignments.html"
+})
